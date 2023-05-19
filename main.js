@@ -4,9 +4,9 @@ import {OrbitControls} from "three/examples/jsm/controls/OrbitControls"
 import gsap from "gsap"
 //SCENE
 const scene= new THREE.Scene()
-const geometry = new THREE.SphereGeometry( 1.5, 50, 50 )
+const geometry = new THREE.SphereGeometry( 0.5, 50, 50 )
 const material = new THREE.MeshStandardMaterial( { 
-  color: "rgb(45, 91, 143",
+  color: "rgb(45, 91, 143)",
   roughness: 0.2,
  } )
  const mesh= new THREE.Mesh(geometry, material)
