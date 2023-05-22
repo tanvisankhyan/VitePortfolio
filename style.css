@@ -88,10 +88,10 @@ nav ul {
 
 }
 .info{
-  color: rgb(69, 90, 117);
+  color: rgb(92, 142, 199);
   z-index:2;
   position: absolute;
-  font-size:1.3rem;
+  font-size:1.5rem;
   left:50%;
   top:70%;
   text-align: center;
